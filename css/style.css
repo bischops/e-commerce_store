@@ -25,6 +25,10 @@ body{
     margin: 0;
 }
 
+.nav-list li a{
+    text-decoration:none;
+}
+
 .nav-list li a:hover{
     background-color: #f0f8ff;
 }
@@ -36,6 +40,10 @@ body{
 .nav-list li a:visited{
     background-color: #123524;
 }
+
+
+
+
 
 
 .img-bg {
