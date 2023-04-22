@@ -41,8 +41,26 @@ body{
     background-color: #123524;
 }
 
+.form-container {
+    background-color: #242124;
+    width: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    bottom: -280px;
+    right: 0;
+    transition: .5s;
 
+}
 
+.form-container:hover{
+    bottom: 0;
+}
+
+#email-envelope{
+    width: 50px;
+    float: left;
+}
 
 
 
