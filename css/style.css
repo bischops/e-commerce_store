@@ -19,6 +19,12 @@ body{
     justify-content: space-around;
     width: 100%;
 }
+
+.nav-item li{
+    display: inline;
+    margin: 0;
+}
+
 .img-bg {
     width: 100%;
 }
