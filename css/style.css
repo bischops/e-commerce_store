@@ -20,10 +20,17 @@ body{
     width: 100%;
 }
 
-.nav-item li{
+.nav-list li{
     display: inline;
     margin: 0;
 }
+
+.nav-list li a:hover{
+    background-color: #f0f8ff;
+}
+
+
+
 
 .img-bg {
     width: 100%;
