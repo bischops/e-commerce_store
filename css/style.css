@@ -29,6 +29,10 @@ body{
     background-color: #f0f8ff;
 }
 
+.nav-list li a:active{
+    background-color: #000036;
+}
+
 
 
 
