@@ -26,6 +26,7 @@ body{
 }
 
 .nav-list li a{
+    color: #f0f8ff;
     text-decoration:none;
 }
 
@@ -58,11 +59,37 @@ body{
 }
 
 #email-envelope{
+    color: #f0f8ff;
     width: 50px;
     float: left;
 }
 
+.form-header-container{
+    background-color: #353839;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
 
+.form-item{
+    margin-left: 15px;
+    color: #f0f8ff;
+    padding-left: 8px;
+}
+
+#message{
+    height: 100px;
+    width: 200px;
+}
+
+#submit-btn{
+    background-color: #180fcd;
+    color: #f0f8ff;
+    padding: 7px 12px;
+    margin: 9px 18px;
+    border: 9;
+}
 
 .img-bg {
     width: 100%;
