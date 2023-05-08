@@ -92,9 +92,37 @@ body{
     color: #123524;
     padding: 7px 12px;
     margin: 9px 18px;
-    border: 9;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
+#submit-btn:hover{
+    color: #f0f8ff;
+    background-color: #123524;
+}
+
+#caption-1 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #f0f8ff;
+    font-size: 9vw;
+    text-transform: capitalize;
+    animation-name: caption-fade;
+    animation-duration: 3s;
+}
+
+@keyframes caption-fade {
+    0% {
+        opacity: 0;
+        top:0;
+    }
+    100% {
+        opacity: 1;
+        top: 40%;
+    }
+}
 
 
 .img-bg {
