@@ -146,11 +146,33 @@ body{
     border-radius: 20px;
     margin-top: 8px;
     animation-name: product-container-anime;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
-@keyframes product-container-anime{
-    
+@keyframes product-container-anime {
+    0% {
+        opacity: 0;
+        margin-top: 500px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 8px;
+    }
+}
+
+.product-container img {
+    max-width: 100%;
+    position: relative;
+}
+
+.cat-text {
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn-container {
+
 }
 
 .img-bg {
