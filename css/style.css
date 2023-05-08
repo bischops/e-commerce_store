@@ -172,6 +172,11 @@ body{
 }
 
 .btn-container {
+    background-color: #353839;
+    position: relative;
+    padding: 7%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 }
 
