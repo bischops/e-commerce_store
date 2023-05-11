@@ -194,6 +194,14 @@ body{
     color: #f0f8ff;
 }
 
+#social-media-container {
+    
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+}
+
 .img-bg {
     width: 100%;
 }
